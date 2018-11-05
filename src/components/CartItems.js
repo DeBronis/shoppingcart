@@ -13,7 +13,7 @@ const CartItems = props => {
             <div className="col-md-2"> Quantity </div>
           </div>
         </div>
-        <CartItem cartItemList={props.cartItemList} />
+        <CartItem cart={props.cart} />
       </div>
     </div>
   );
